@@ -33,3 +33,20 @@ alias la='ls -lAh'
 
 alias afind='ack-grep -il'
 
+alias astart="sudo apachectl start"
+alias astop="sudo apachectl stop"
+alias arestart="sudo apachectl stop"
+alias hosts="sudo st /etc/hosts"
+alias conf="sudo st /etc/apache2/httpd.conf"
+
+# Git
+alias gd="git diff | st"
+alias gcom="git commit -m"
+alias glog="git log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'"
+alias gprm="git pull --rebase master"
+alias gpom="git pull origin master"
+
+# Rails
+alias migrate="rake db:migrate && rake db:test:prepare"
+alias be="bundle exec"
+alias rrg="rake routes | grep"
