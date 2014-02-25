@@ -52,3 +52,6 @@ alias gpom="git pull origin master"
 alias migrate="rake db:migrate && rake db:test:prepare"
 alias be="bundle exec"
 alias rrg="rake routes | grep"
+
+# Custom SSH stuff
+alias codeblog='ssh -t root@107.170.73.239 "cd ../var/www/ghost/ ; bash"'
