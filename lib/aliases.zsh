@@ -31,7 +31,7 @@ alias l='ls -lah'
 alias ll='ls -lh'
 alias la='ls -lAh'
 
-alias afind='ack-grep -il'
+alias afind='ack -il'
 
 alias astart="sudo apachectl start"
 alias astop="sudo apachectl stop"
@@ -55,3 +55,4 @@ alias rrg="rake routes | grep"
 
 # Custom SSH stuff
 alias codeblog='ssh -t root@107.170.73.239 "cd ../var/www/ghost/ ; bash"'
+alias fcssh='ssh winston@app1-tx.prod.foxycart.com'
