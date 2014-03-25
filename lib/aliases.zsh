@@ -56,3 +56,4 @@ alias rrg="rake routes | grep"
 
 # Custom SSH stuff
 alias codeblog='ssh -t root@107.170.73.239 "cd ../var/www/ghost/ ; bash"'
+alias fcssh='ssh winston@app1-tx.prod.foxycart.com'
