@@ -40,6 +40,7 @@ alias mysqlstart="sudo /usr/local/mysql/support-files/mysql.server start"
 alias mysqlstart="sudo /usr/local/mysql/support-files/mysql.server stop"
 alias hosts="sudo st /etc/hosts"
 alias conf="sudo st /etc/apache2/httpd.conf"
+# alias rsync='rsync -avz --stats --progress'
 
 # Git
 alias gd="git diff | st"
