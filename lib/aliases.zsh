@@ -41,6 +41,7 @@ alias mysqlstart="sudo /usr/local/mysql/support-files/mysql.server start"
 alias mysqlstart="sudo /usr/local/mysql/support-files/mysql.server stop"
 alias hosts="sudo st /etc/hosts"
 alias conf="sudo st /etc/apache2/httpd.conf"
+alias vrestart="sudo /Library/StartupItems/VirtualBox/VirtualBox restart"
 # alias rsync='rsync -avz --stats --progress'
 
 # Git
@@ -57,17 +58,19 @@ alias be="bundle exec"
 alias rrg="rake routes | grep"
 
 # Custom SSH stuff
-alias codeblog='ssh -t root@107.170.73.239 "cd ../var/www/ghost/ ; bash"'
+alias codeblog='ssh -t -p 4024 wnstn@104.131.86.122 "cd /var/www/ ; bash"'
 alias fcssh='ssh winston@app1-tx.prod.foxycart.com'
 
 # Projects
 alias st53='cd ~/Sites/ST && st fiftythree.sublime-project && cd -'
 alias stfoxy='cd ~/Sites/ST && st foxycart.sublime-project && cd -'
 alias stfc='cd ~/Sites/ST && st foxycart.sublime-project && cd -'
+alias stfcmk='cd ~/Sites/ST && st foxymarketing.sublime-project && cd -'
 alias stiht='cd ~/Sites/ST && st iht.sublime-project && cd -'
 alias stng='cd ~/Sites/ST && st numbergarage.sublime-project && cd -'
 alias stplay='cd ~/Sites/ST && st play.sublime-project && cd -'
 alias stss='cd ~/Sites/ST && st split-secnd.sublime-project && cd -'
 alias stcode='cd ~/Sites/ST && st codeblog.sublime-project && cd -'
-alias sttyfa='cd ~/Sites/ST && st tyfa.sublime-project && cd -'
 alias stwh='cd ~/Sites/ST && st winstonhearn.sublime-project && cd -'
+alias writing='cd ~/Sites/ST && st writing.sublime-project && cd -'
+alias jsex='st ~/Sites/tmp/scratchpad.js'
