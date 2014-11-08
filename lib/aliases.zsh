@@ -33,6 +33,7 @@ alias la='ls -lA'
 alias sl=ls # often screw this up
 
 alias afind='ack -il'
+alias hist='history | grep '
 
 alias astart="sudo apachectl start"
 alias astop="sudo apachectl stop"
@@ -42,7 +43,7 @@ alias mysqlstart="sudo /usr/local/mysql/support-files/mysql.server stop"
 alias hosts="sudo st /etc/hosts"
 alias conf="sudo st /etc/apache2/httpd.conf"
 alias vrestart="sudo /Library/StartupItems/VirtualBox/VirtualBox restart"
-# alias rsync='rsync -avz --stats --progress'
+alias deploywh="ggpush && g push prod master"
 
 # Git
 alias gd="git diff | st"
